@@ -1,4 +1,4 @@
-# Authentication Patterns Demo
+# Authentication Methods Demo
 
 A small full-stack app that shows four ways to sign in, each with its own login view. Whichever method you use, you land on the same `/dashboard`.
 
