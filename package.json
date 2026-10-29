@@ -1,0 +1,15 @@
+{
+  "name": "authentication-methods",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "bun run --filter '*' dev",
+    "test": "bun run --filter backend test",
+    "typecheck": "bun run --filter '*' typecheck",
+    "build": "bun run --filter frontend build",
+    "start": "bun run --filter backend start"
+  }
+}
